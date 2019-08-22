@@ -13,6 +13,7 @@ class App extends React.Component {
             {name: 'name2', artist: 'artist2', album: 'album2', id: '2'},
             {name: 'name3', artist: 'artist3', album: 'album3', id: '3'}]
         }
+        console.log(this.props);
     }
 
     render() {
