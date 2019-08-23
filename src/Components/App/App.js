@@ -20,9 +20,9 @@ class App extends React.Component {
         return (
             <div>
                 <h1>Ja<span className="highlight">mmm</span>ing</h1>
-                <div className="app">
+                <div className="App">
                     <SearchBar />
-                    <div className="appPlaylist">
+                    <div className="App-playlist">
                         <SearchResults searchResults={this.state.searchResults} />
                         <Playlist />
                     </div>
